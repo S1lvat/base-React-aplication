@@ -39,12 +39,20 @@ ul {
   list-style: none;
 }
 
+.Toastify__toast-theme--light.Toastify__toast--success .Toastify__toast-icon > svg {
+  fill: ${colors.successColor}
+}
+
 .Toastify__progress-bar-theme--light.Toastify__progress-bar--success {
   background: ${colors.successColor};
 }
 
-.Toastify__toast-icon > svg {
-  fill: ${colors.successColor}
+.Toastify__toast-theme--light.Toastify__toast--error .Toastify__toast-icon > svg {
+  fill: ${colors.errorColor}
+}
+
+.Toastify__progress-bar-theme--light.Toastify__progress-bar--error {
+  background: ${colors.errorColor};
 }
 `;
 
